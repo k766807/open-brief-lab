@@ -2,7 +2,7 @@
 
 **Public-source intelligence brief generator for students, analysts, and civic researchers.**
 
-> Live demo: _Add deployed URL here after publishing to GitHub Pages, Netlify, Vercel, or Render._
+> Live demo target: `https://k766807.github.io/open-brief-lab/`
 >
 > Screenshot: _Add a homepage screenshot after the first deploy._
 
@@ -110,6 +110,14 @@ Build for production:
 ```bash
 npm run build
 npm run preview
+```
+
+## Deployment
+
+This repo includes a GitHub Pages workflow at `.github/workflows/deploy.yml`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** if it is not already enabled. The expected public URL is:
+
+```text
+https://k766807.github.io/open-brief-lab/
 ```
 
 ## Project structure
