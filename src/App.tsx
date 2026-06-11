@@ -31,7 +31,7 @@ const featureCards = [
 
 function App() {
   const [activeBrief, setActiveBrief] = useState<Brief | null>(sampleBriefs[0]);
-  const briefRef = useRef<HTMLDivElement | null>(null);
+  const briefRef = useRef<HTMLElement | null>(null);
 
   function openBrief(brief: Brief) {
     setActiveBrief(brief);
